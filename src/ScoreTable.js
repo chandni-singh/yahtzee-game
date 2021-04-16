@@ -38,7 +38,7 @@ class ScoreTable extends Component {
           <h2>Lower</h2>
           <table cellSpacing="0">
             <tbody>
-              <RuleRow name="Three of Kind" score={scores.threeOfKind} description = {threes.description} doScore={evt => doScore("threeOfKind", threeOfKind.evalRoll)} />
+              <RuleRow name="Three of Kind" score={scores.threeOfKind} description = {threeOfKind.description} doScore={evt => doScore("threeOfKind", threeOfKind.evalRoll)} />
               <RuleRow name="Four of Kind" score={scores.fourOfKind} description = {fourOfKind.description} doScore={evt => doScore("fourOfKind", fourOfKind.evalRoll)} />
               <RuleRow name="Full House" score={scores.fullHouse} description = {fullHouse.description} doScore={evt => doScore("fullHouse", fullHouse.evalRoll)} />
               <RuleRow name="Small Straight" score={scores.smallStraight} description = {smallStraight.description} doScore={evt => doScore("smallStraight", smallStraight.evalRoll)} />
